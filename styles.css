@@ -1,0 +1,30 @@
+@font-face {
+    font-family: starWars;
+    src: url("Starjout.ttf");
+}
+
+body {
+    background-image: url("space.jpg");
+    background-size: cover;
+    color: white;
+    font-family: "starWars";
+    letter-spacing: 3px;
+}
+
+.word{
+    text-decoration:underline;
+}
+
+.text{
+    text-align: center;
+}
+
+button{
+    padding: 3px 10px;
+    font-size: 18px;
+    color: white;
+    background: navy;
+    border: none;
+    font-family: inherit;
+
+}
