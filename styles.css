@@ -4,19 +4,29 @@
 }
 
 body {
-    background-image: url("space.jpg");
-    background-size: cover;
-    color: white;
+    margin: 0;
+    color: #ffe81f;
     font-family: "starWars";
     letter-spacing: 3px;
+    text-shadow: -1px -1px 35px white;
+    }
+
+#logo{
+    width: 100px;
+    display: block;
+    margin: 0 auto;
+
 }
 
 .word{
-    text-decoration:underline;
+    border-bottom: 1px solid white;
 }
 
 .text{
     text-align: center;
+    background-image: url("slike/space.gif");
+    background-size: cover;
+    padding: 10px 0 30px;
 }
 
 button{
@@ -26,5 +36,10 @@ button{
     background: navy;
     border: none;
     font-family: inherit;
+    }
 
-}
+.terms{
+    text-align: center;
+    background-image: url("slike/space.jpg");
+    padding: 1px;
+    }
